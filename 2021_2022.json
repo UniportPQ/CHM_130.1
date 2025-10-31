@@ -240,24 +240,6 @@
     "name": "Question 10",
     "topic": ["Gaseous State"],
     "Question": {
-      "content": "A sample of gas with mass of 0.450g acquires the volume of water to zero.",
-      "type": "subjective",
-      "options": []
-    },
-    "Answer": {
-      "type": "string",
-      "content": "Incomplete question - appears to be cut off"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Incomplete Question</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Observation:</strong><br>\n    The question appears to be incomplete or cut off. It mentions:<br>\n    • Gas mass: 0.450 g<br>\n    • Volume of water to zero (unclear meaning)<n>\n    • Missing information about what needs to be calculated\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Possible interpretations:</strong><br>\n    • Could be about gas volume measurement by water displacement<br>\n    • Or about density calculation<br>\n    • But insufficient information to solve\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>Note:</strong> Question is incomplete and cannot be properly answered\n  </div>\n</div>"
-    }
-  },
-  {
-    "type": "Question",
-    "name": "Question 10",
-    "topic": ["Gaseous State"],
-    "Question": {
       "content": "A sample of gas with mass of 0.450g occupies the volume of 345ml at 65°C and at pressure of 77mmHg. What is the molar mass of the gas?",
       "type": "OBJ",
       "options": [
