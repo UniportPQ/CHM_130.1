@@ -1,0 +1,733 @@
+[ {
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "General Chemistry I",
+  "code": "CHM 130.1",
+  "session": "2018/2018",
+  "topics": [
+ "Atomic Theory and Chemical Equations",
+ "Atomic Structure and Quantum Theory",
+ "Periodic Table",
+ "Chemical Bonding",
+ "Theory of Chemical Bonding",
+ "Chemical Thermodynamics",
+ "Gaseous State"
+],
+  "time": "90"
+ },
+ {
+  "type": "Instruction",
+  "content": "Attempt All Questions"
+ },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Find the natural logarithm of 7.56.",
+      "type": "OBJ",
+      "options": [
+        "2.0",
+        "2",
+        "2.02",
+        "2.023",
+        "2.0228"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2.023"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Natural Logarithm Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Natural Logarithm</strong><br>\n    Natural logarithm (ln) is logarithm to base e (e ≈ 2.71828)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate ln(7.56)</strong><br>\n    Using calculator or logarithm table:<br>\n    ln(7.56) = 2.023\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify Accuracy</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      e² = 7.389<br>\n      e².⁰²³ = 7.56 ✓\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> ln(7.56) = 2.023\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Gaseous State"],
+    "Question": {
+      "content": "The density ρ of a gas at temperature T is given by P = RTρ, if P = 1.25 atm, T = 308.5 K and R = 8.31447 J/K/Mol. Calculate the density of the gas. Note: 1 atm = 101325 Pa",
+      "type": "OBJ",
+      "options": [
+        "49.46 mol/m³",
+        "49 mol/m³",
+        "49.5 mol/m³",
+        "49.458 mol/m³",
+        "49.459 mol/m³"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "49.458 mol/m³"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Gas Density Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rearrange Formula</strong><br>\n    P = RTρ ⇒ ρ = P ÷ (RT)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Convert Pressure to Pa</strong><br>\n    P = 1.25 atm × 101325 Pa/atm<br>\n    P = 126656.25 Pa\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate RT</strong><br>\n    RT = 8.31447 × 308.5<br>\n    RT = 2564.51 J/mol\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate Density</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ρ = 126656.25 ÷ 2564.51<br>\n      ρ = 49.458 mol/m³\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 49.458 mol/m³\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Chemical Thermodynamics"],
+    "Question": {
+      "content": "Two differences between an open and a closed thermodynamic systems are:",
+      "type": "OBJ",
+      "options": [
+        "Closed system has mass, open system does not",
+        "Heat flows into closed system and not in open system",
+        "Closed system is adiabatic, open system is isothermal",
+        "Closed system is isobaric, open system is isobaric",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Thermodynamic Systems</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Correct Definitions</strong><br>\n    • <strong>Open system:</strong> Can exchange both matter AND energy with surroundings<br>\n    • <strong>Closed system:</strong> Can exchange energy but NOT matter with surroundings\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Analyze Each Option</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      <strong>(a):</strong> Wrong - both systems have mass<br>\n      <strong>(b):</strong> Wrong - heat can flow in both systems<br>\n      <strong>(c):</strong> Wrong - not defining characteristics<br>\n      <strong>(d):</strong> Wrong - pressure conditions not defining<br>\n      <strong>(e):</strong> Correct - all other options are incorrect\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> None of the above (all given statements are incorrect)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Determine the mass of NH₃ produced from a mixture of 19.88g of N₂ and 4.00g of H₂.",
+      "type": "OBJ",
+      "options": [
+        "11.23g",
+        "20.12g",
+        "22.48g",
+        "30.43g",
+        "25.46g"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "22.48g"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limiting Reactant Problem</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Balanced Equation</strong><br>\n    N₂ + 3H₂ → 2NH₃\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Moles</strong><br>\n    Moles N₂ = 19.88 ÷ 28 = 0.71 mol<br>\n    Moles H₂ = 4.00 ÷ 2 = 2.00 mol\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify Limiting Reactant</strong><br>\n    For N₂: needs 3 × 0.71 = 2.13 mol H₂ (but only 2.00 available)<br>\n    For H₂: needs 2.00 ÷ 3 = 0.67 mol N₂ (0.71 available)<br>\n    <strong>H₂ is limiting reactant</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate NH₃ Produced</strong><br>\n    From 3H₂ → 2NH₃<br>\n    Moles NH₃ = (2.00 ÷ 3) × 2 = 1.333 mol<br>\n    Mass NH₃ = 1.333 × 17 = 22.48g\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 22.48g of NH₃\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Periodic Table"],
+    "Question": {
+      "content": "The properties of the periodic table includes which of the following:",
+      "type": "OBJ",
+      "options": [
+        "ionic radii",
+        "atomic radii",
+        "ionization energy",
+        "electronegativity",
+        "all of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "all of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Periodic Table Properties</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Periodic Trends</strong><br>\n    The periodic table shows predictable trends for various atomic properties.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Verify Each Property</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      <strong>• Ionic radii:</strong> Size of ions - shows periodic trend ✓<br>\n      <strong>• Atomic radii:</strong> Size of atoms - shows periodic trend ✓<br>\n      <strong>• Ionization energy:</strong> Energy to remove electron - shows trend ✓<br>\n      <strong>• Electronegativity:</strong> Ability to attract electrons - shows trend ✓\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> All of the above (all are periodic properties)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Chemical Bonding"],
+    "Question": {
+      "content": "Molecular compounds are generally composed of:",
+      "type": "OBJ",
+      "options": [
+        "Metals and non-metals",
+        "Metals only",
+        "Non-metals only",
+        "Ions",
+        "all of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-metals only"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Molecular Compounds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define Molecular Compounds</strong><br>\n    Molecular compounds are formed when non-metal atoms share electrons through covalent bonds.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Analyze Each Option</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      <strong>• Metals + non-metals:</strong> Forms ionic compounds<br>\n      <strong>• Metals only:</strong> Forms metallic bonds<br>\n      <strong>• Non-metals only:</strong> Forms molecular/covalent compounds ✓<br>\n      <strong>• Ions:</strong> Characteristic of ionic compounds<br>\n      <strong>• All of above:</strong> Incorrect\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Non-metals only\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Chemical Thermodynamics"],
+    "Question": {
+      "content": "A system gains 418.2J of heat and does 313.5J of work, determine the change in internal energy of the system in Joules.",
+      "type": "OBJ",
+      "options": [
+        "209J",
+        "-104.7J",
+        "90J",
+        "100J",
+        "85J"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "104.7J"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>First Law of Thermodynamics</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: First Law Formula</strong><br>\n    ΔU = Q - W<br>\n    Where: ΔU = change in internal energy<br>\n    Q = heat added to system<br>\n    W = work done by system\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Values</strong><br>\n    Q = +418.2J (gained by system)<br>\n    W = +313.5J (done by system)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate ΔU</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ΔU = 418.2 - 313.5 = 104.7J\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 104.7J (internal energy increases)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Gaseous State"],
+    "Question": {
+      "content": "A sample of gas with mass 0.450g occupies a volume of 345ml at 65°C and at pressure of 776mmHg. What is the molar mass of the gas?",
+      "type": "OBJ",
+      "options": [
+        "26g/mol",
+        "35.46g/mol",
+        "17.5g/mol",
+        "45.2g/mol",
+        "28.2g/mol"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "35.46g/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Molar Mass from Ideal Gas Law</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Convert Units</strong><br>\n    P = 776 mmHg × (1 atm / 760 mmHg) = 1.021 atm<br>\n    V = 345 mL = 0.345 L<br>\n    T = 65°C + 273 = 338 K<br>\n    R = 0.0821 L·atm/mol·K\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Ideal Gas Law</strong><br>\n    PV = nRT ⇒ n = PV/RT<br>\n    n = (1.021 × 0.345) ÷ (0.0821 × 338)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Molar Mass</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      n = 0.352 ÷ 27.70 = 0.0127 mol<br>\n      Molar mass = 0.450g ÷ 0.0127 mol = 35.46 g/mol\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 35.46 g/mol\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Chemical Bonding", "Theory of Chemical Bonding"],
+    "Question": {
+      "content": "The Lewis dot formula of oxygen molecule shows:",
+      "type": "OBJ",
+      "options": [
+        "a single ionic bond",
+        "a triple covalent bond",
+        "a double covalent bond",
+        "a single covalent bond",
+        "a double ionic bond"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "a double covalent bond"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Oxygen Molecule Bonding</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Oxygen Atomic Structure</strong><br>\n    Oxygen has 6 valence electrons, needs 2 more for octet\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: O₂ Lewis Structure</strong><br>\n    O=O with two shared electron pairs<br>\n    Each oxygen shares 2 electrons with the other\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Bond Type</strong><br>\n    Two shared electron pairs = double covalent bond<br>\n    Bond order = 2\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Double covalent bond (O=O)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Chemical Bonding", "Theory of Chemical Bonding"],
+    "Question": {
+      "content": "Which of the following bond is more polar?",
+      "type": "OBJ",
+      "options": [
+        "B - Cl",
+        "C - Cl",
+        "F - F",
+        "H - F",
+        "A - B"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "H - F"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bond Polarity Comparison</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Electronegativity Values</strong><br>\n    H = 2.1, B = 2.0, C = 2.5, N = 3.0, F = 4.0, Cl = 3.0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Differences</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      B-Cl: |2.0 - 3.0| = 1.0<br>\n      C-Cl: |2.5 - 3.0| = 0.5<br>\n      F-F: |4.0 - 4.0| = 0.0 (nonpolar)<br>\n      H-F: |2.1 - 4.0| = 1.9 ✓<br>\n      A-B: Unknown\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> H-F has largest electronegativity difference (1.9)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Chemical Bonding"],
+    "Question": {
+      "content": "Which of the following compound is ionic?",
+      "type": "OBJ",
+      "options": [
+        "N₂O",
+        "Na₂O",
+        "SF₄",
+        "CO",
+        "O₂"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Na₂O"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Ionic vs Covalent Compounds</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Ionic Bond Definition</strong><br>\n    Ionic bonds form between metals and non-metals\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Analyze Each Compound</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      N₂O: Non-metal + Non-metal → Covalent<br>\n      Na₂O: Metal + Non-metal → Ionic ✓<br>\n      SF₄: Non-metal + Non-metal → Covalent<br>\n      CO: Non-metal + Non-metal → Covalent<br>\n      O₂: Same non-metal → Covalent\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Na₂O (sodium oxide is ionic)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Indicate the values of mₗ for the subshell with n = 5 and L = 1",
+      "type": "OBJ",
+      "options": [
+        "1, 0, -1",
+        "-2, -1, 0, 1, 2",
+        "1, 2, 3, 4, 5",
+        "-3, -2, -1, 0, 1, 2, 3",
+        "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1, 0, -1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Magnetic Quantum Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Subshell</strong><br>\n    n = 5, L = 1 represents 5p subshell\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: mₗ Range</strong><br>\n    mₗ ranges from -L to +L in integer steps<br>\n    For L = 1: mₗ = -1, 0, +1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Note About n</strong><br>\n    The principal quantum number (n) doesn't affect mₗ values<br>\n    mₗ depends only on L value\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> mₗ = -1, 0, +1 (for any p orbital)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Calculate the number of atoms of carbon contained in 2 × 10⁻⁴ g of carbon.",
+      "type": "OBJ",
+      "options": [
+        "1.01",
+        "1.01 × 10¹⁹",
+        "2.02 × 10¹⁴",
+        "2.0 × 10¹⁹",
+        "2.02"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.01 × 10¹⁹"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Atoms from Mass Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Calculate Moles</strong><br>\n    Molar mass of C = 12 g/mol<br>\n    Moles = mass ÷ molar mass = (2 × 10⁻⁴) ÷ 12\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Convert to Atoms</strong><br>\n    Atoms = moles × Avogadro's number<br>\n    Atoms = [(2 × 10⁻⁴) ÷ 12] × (6.02 × 10²³)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      = (1.667 × 10⁻⁵) × (6.02 × 10²³)<br>\n      = 1.003 × 10¹⁹ atoms<br>\n      ≈ 1.01 × 10¹⁹ atoms\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1.01 × 10¹⁹ atoms\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "The designation of the orbital of n=3, L = 1, m = 0 is:",
+      "type": "OBJ",
+      "options": [
+        "3Py",
+        "3Px",
+        "3S",
+        "3Pz",
+        "3d"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3Pz"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orbital Designation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Orbital Type</strong><br>\n    n=3, L=1 → 3p orbital\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Determine Specific p-orbital</strong><br>\n    For p orbitals (L=1):<br>\n    m = -1 → p_x orbital<br>\n    m = 0 → p_z orbital ✓<br>\n    m = +1 → p_y orbital\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3Pz orbital\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Chemical Bonding", "Theory of Chemical Bonding"],
+    "Question": {
+      "content": "SO₂ molecule has how many canonical forms?",
+      "type": "OBJ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Resonance Structures</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: SO₂ Structure</strong><br>\n    Sulfur dioxide has resonance between two equivalent structures\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Canonical Forms</strong><br>\n    Structure 1: S=O and S-O (with formal charges)<br>\n    Structure 2: S-O and S=O (identical but swapped)<br>\n    These are the two major resonance contributors\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2 canonical forms (resonance structures)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "\"There is a limit to simultaneously defining the position and momentum of electron accurately\". This principle of uncertainty was given by whom?",
+      "type": "OBJ",
+      "options": [
+        "Hess",
+        "Heisenberg",
+        "John Dalton",
+        "Bohr",
+        "Pauli"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Heisenberg"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Uncertainty Principle</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Principle</strong><br>\n    The statement describes Heisenberg's Uncertainty Principle\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Key Scientists</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      <strong>Heisenberg:</strong> Uncertainty Principle ✓<br>\n      <strong>Hess:</strong> Law of constant heat summation<br>\n      <strong>Dalton:</strong> Atomic theory<br>\n      <strong>Bohr:</strong> Atomic model with fixed orbits<br>\n      <strong>Pauli:</strong> Exclusion principle\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Heisenberg (Werner Heisenberg, 1927)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Periodic Table"],
+    "Question": {
+      "content": "Considering the atomic radii of the following elements: P(1.1), Q(2.6), R(3.4), S(0.2), T(1.8) and U(2.1); which of the elements has the lowest ionization energy?",
+      "type": "OBJ",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "U",
+        "S"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "R"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Ionization Energy and Atomic Radius</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Relationship</strong><br>\n    Larger atomic radius → Lower ionization energy<br>\n    Electrons are farther from nucleus and easier to remove\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify Largest Radius</strong><br>\n    Given radii: P(1.1), Q(2.6), R(3.4), S(0.2), T(1.8), U(2.1)<br>\n    Largest radius = R (3.4)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Periodic Trend</strong><br>\n    Element with largest atomic radius (R) will have lowest ionization energy\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> R (largest radius = lowest ionization energy)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Balance the following equation: Cd(NO₃)₂(aq) + Na₂S(aq) → NaNO₃(aq) + CdS(aq)",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cd(NO₃)₂(aq) + Na₂S(aq) → 2NaNO₃(aq) + CdS(aq)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Balancing Chemical Equations</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write Unbalanced Equation</strong><br>\n    Cd(NO₃)₂ + Na₂S → NaNO₃ + CdS\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Count Atoms on Each Side</strong><br>\n    Left: Cd=1, N=2, O=6, Na=2, S=1<br>\n    Right: Cd=1, N=1, O=3, Na=1, S=1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Balance Sodium and Nitrogen</strong><br>\n    Put coefficient 2 before NaNO₃:<br>\n    Cd(NO₃)₂ + Na₂S → 2NaNO₃ + CdS\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Verify Balance</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Left: Cd=1, N=2, O=6, Na=2, S=1<br>\n      Right: Cd=1, N=2, O=6, Na=2, S=1 ✓\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Cd(NO₃)₂(aq) + Na₂S(aq) → 2NaNO₃(aq) + CdS(aq)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "An element X has two isotopes, ³⁵X and ³⁷X with atomic mass units 34.9689 amu and 36.9659 amu respectively, and relative natural abundances of 75.770% and 24.230% respectively. Calculate the average atomic mass of X.",
+      "type": "OBJ",
+      "options": [
+        "36.00 amu",
+        "35.453 amu",
+        "37.234 amu",
+        "36.354 amu",
+        "34.969 amu"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "35.453 amu"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Average Atomic Mass Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Convert Percentages to Fractions</strong><br>\n    ³⁵X: 75.770% = 0.75770<br>\n    ³⁷X: 24.230% = 0.24230\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Weighted Average Formula</strong><br>\n    Average mass = (fraction₁ × mass₁) + (fraction₂ × mass₂)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      = (0.75770 × 34.9689) + (0.24230 × 36.9659)<br>\n      = 26.496 + 8.957<br>\n      = 35.453 amu\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 35.453 amu (This is chlorine!)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Determine the simplest or empirical formula of a compound that contains 82.2% of X and 17.8% of Y by mass. (X = 1.008, Y = 14.01)",
+      "type": "OBJ",
+      "options": [
+        "XY",
+        "XY₂",
+        "X₂Y",
+        "X₃Y",
+        "XY₃"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "X₂Y"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Empirical Formula Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Assume 100g Sample</strong><br>\n    X = 82.2g, Y = 17.8g\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Moles</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      Moles of X = 82.2 ÷ 1.008 = 81.55 mol<br>\n      Moles of Y = 17.8 ÷ 14.01 = 1.27 mol\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find Simplest Ratio</strong><br>\n    Divide by smallest number (1.27):<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      X: 81.55 ÷ 1.27 = 64.2 ≈ 64<br>\n      Y: 1.27 ÷ 1.27 = 1\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Simplify Ratio</strong><br>\n    64:1 ratio simplifies to approximately 2:1<br>\n    Therefore: X₂Y\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> X₂Y\n  </div>\n</div>"
+    }
+  },
+{"type": "heading",
+ "heading": "Theory"
+},
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Chemical Thermodynamics", "Gaseous State"],
+    "Question": {
+      "content": "Five moles of a perfect gas expands reversibly and isothermally from initial state P₁ = 1MPa, 12.5L to 0.1MPa final pressure, calculate the work of expansion during the process.",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-28.8 kJ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Isothermal Reversible Expansion Work</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Work Formula for Isothermal Process</strong><br>\n    For reversible isothermal expansion: W = -nRT ln(V₂/V₁) = -nRT ln(P₁/P₂)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Temperature First</strong><br>\n    Using initial conditions: P₁V₁ = nRT<br>\n    P₁ = 1 MPa = 10⁶ Pa, V₁ = 12.5 L = 0.0125 m³, n = 5 mol<br>\n    T = P₁V₁/(nR) = (10⁶ × 0.0125)/(5 × 8.314) = 300.6 K\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Work</strong><br>\n    P₁/P₂ = 1 MPa / 0.1 MPa = 10<br>\n    W = -5 × 8.314 × 300.6 × ln(10)<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      W = -12495 × 2.3026 = -28770 J = -28.8 kJ\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Work = -28.8 kJ (negative sign indicates work done BY system)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "What is the designation for the subshell with: n = 5, L = 2, Mₗ = -1?",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5dₓy orbital"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orbital Designation from Quantum Numbers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Subshell Type</strong><br>\n    n = 5 (principal quantum number)<br>\n    L = 2 → d subshell<br>\n    So: 5d subshell\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify Specific d-orbital</strong><br>\n    For d orbitals (L=2), Mₗ values and corresponding orbitals:<br>\n    Mₗ = -2 → dₓ²⁻ᵧ²<br>\n    Mₗ = -1 → dₓy ✓<br>\n    Mₗ = 0 → d₂²<br>\n    Mₗ = +1 → dₓz<br>\n    Mₗ = +2 → dᵧz\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 5dₓy orbital\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Calculate the total number of orbitals for n = 5, L = 2",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5 orbitals"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Number of Orbitals in d Subshell</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Orbitals from Magnetic Quantum Number</strong><br>\n    Number of orbitals = 2L + 1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate for d Subshell</strong><br>\n    For L = 2 (d subshell):<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Orbitals = 2(2) + 1 = 5\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: List the d Orbitals</strong><br>\n    The 5 d orbitals are: dₓ²⁻ᵧ², d₂², dₓy, dₓz, dᵧz\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 5 orbitals\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2c",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Calculate the total number of electrons for n = 5, L = 2",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10 electrons"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Maximum Electrons in d Subshell</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Electrons per Orbital</strong><br>\n    Each orbital can hold maximum 2 electrons (Pauli Exclusion Principle)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Total Electrons</strong><br>\n    Number of orbitals in d subshell = 5<br>\n    Maximum electrons = 5 orbitals × 2 electrons/orbital<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      5 × 2 = 10 electrons\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 10 electrons maximum\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "topic": ["Periodic Table"],
+    "Question": {
+      "content": "Arrange the following in increasing atomic size: C, B, O, Na, Mg, S and Li.",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "O < C < B < S < Li < Mg < Na"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Atomic Size Trends in Periodic Table</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Positions in Periodic Table</strong><br>\n    Period 2: B, C, O, Li<br>\n    Period 3: Na, Mg, S\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Periodic Trends</strong><br>\n    • Across period: Atomic size decreases (left to right)<br>\n    • Down group: Atomic size increases\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Arrange Elements</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      Period 2 (left to right): Li → B → C → O (decreasing size)<br>\n      Period 3 (left to right): Na → Mg → S (decreasing size)<br>\n      Between periods: Na > Li (down group increase)<br>\n      Final order: O < C < B < S < Li < Mg < Na\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> O < C < B < S < Li < Mg < Na\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "topic": ["Atomic Theory and Chemical Equations"],
+    "Question": {
+      "content": "Balance the following chemical equation: K₂CO₃(aq) + Al₂Cl₆(s) → Al₂(CO₃)₃(aq) + KCl(aq)",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3K₂CO₃(aq) + Al₂Cl₆(s) → Al₂(CO₃)₃(aq) + 6KCl(aq)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Balancing Double Displacement Reaction</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write Unbalanced Equation</strong><br>\n    K₂CO₃ + Al₂Cl₆ → Al₂(CO₃)₃ + KCl\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Balance Aluminum</strong><br>\n    Already balanced: 2 Al on both sides\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Balance Carbonate (CO₃)</strong><br>\n    Right: 3 CO₃, Left: 1 CO₃<br>\n    Put 3 before K₂CO₃: 3K₂CO₃ + Al₂Cl₆ → Al₂(CO₃)₃ + KCl\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Balance Potassium and Chlorine</strong><br>\n    Left: K=6, Cl=6; Right: K=1, Cl=1<br>\n    Put 6 before KCl: 3K₂CO₃ + Al₂Cl₆ → Al₂(CO₃)₃ + 6KCl\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Verify Balance</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Left: K=6, C=3, O=9, Al=2, Cl=6<br>\n      Right: K=6, C=3, O=9, Al=2, Cl=6 ✓\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3K₂CO₃(aq) + Al₂Cl₆(s) → Al₂(CO₃)₃(aq) + 6KCl(aq)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4a",
+    "topic": ["Chemical Bonding", "Theory of Chemical Bonding"],
+    "Question": {
+      "content": "Draw the Lewis structure and deduce the number of resonance in SO₃²⁻",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3 resonance structures"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>SO₃²⁻ Lewis Structure and Resonance</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Count Valence Electrons</strong><br>\n    S = 6, O = 6 each (×3), +2 for charge = 6 + 18 + 2 = 26 electrons\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Build Skeleton</strong><br>\n    S in center, bonded to 3 O atoms (uses 6 electrons)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Complete Octets</strong><br>\n    Complete octets for oxygen atoms (18 electrons)<br>\n    Remaining 2 electrons go to S as lone pair\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Resonance Structures</strong><br>\n    SO₃²⁻ has 3 equivalent resonance structures where the double bond rotates among the 3 S-O bonds\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3 resonance structures (trigonal pyramidal geometry)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4b",
+    "topic": ["Chemical Bonding", "Theory of Chemical Bonding"],
+    "Question": {
+      "content": "Draw the Lewis structure and deduce the number of resonance in CO₃²⁻",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3 resonance structures"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>CO₃²⁻ Lewis Structure and Resonance</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Count Valence Electrons</strong><br>\n    C = 4, O = 6 each (×3), +2 for charge = 4 + 18 + 2 = 24 electrons\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Build Skeleton</strong><br>\n    C in center, bonded to 3 O atoms (uses 6 electrons)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Complete Octets</strong><br>\n    Complete octets for oxygen atoms (18 electrons)<br>\n    All electrons used, C has formal charge of 0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Resonance Structures</strong><br>\n    CO₃²⁻ has 3 equivalent resonance structures where the double bond rotates among the 3 C-O bonds\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3 resonance structures (trigonal planar geometry)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5i",
+    "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Deduce the group, period and block of the element with atomic number 18",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Group 18, Period 3, p-block"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Element Identification from Atomic Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Element</strong><br>\n    Atomic number 18 = Argon (Ar)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Electronic Configuration</strong><br>\n    1s² 2s² 2p⁶ 3s² 3p⁶\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine Properties</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      • <strong>Period:</strong> Highest n = 3 → Period 3<br>\n      • <strong>Group:</strong> 8 valence electrons (3s²3p⁶) → Group 18 (Noble gases)<br>\n      • <strong>Block:</strong> Last electron in p orbital → p-block\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Group 18, Period 3, p-block (Argon)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5ii",
+    "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Deduce the group, period and block of the element with atomic number 26",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Group 8, Period 4, d-block"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Element Identification from Atomic Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Element</strong><br>\n    Atomic number 26 = Iron (Fe)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Electronic Configuration</strong><br>\n    1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine Properties</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      • <strong>Period:</strong> Highest n = 4 → Period 4<br>\n      • <strong>Group:</strong> Transition metal with 8 valence electrons → Group 8<br>\n      • <strong>Block:</strong> Last electron in d orbital → d-block\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Group 8, Period 4, d-block (Iron)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5iii",
+    "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Deduce the group, period and block of the element with atomic number 14",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Group 14, Period 3, p-block"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Element Identification from Atomic Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Element</strong><br>\n    Atomic number 14 = Silicon (Si)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Electronic Configuration</strong><br>\n    1s² 2s² 2p⁶ 3s² 3p²\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine Properties</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      • <strong>Period:</strong> Highest n = 3 → Period 3<br>\n      • <strong>Group:</strong> 4 valence electrons (3s²3p²) → Group 14<br>\n      • <strong>Block:</strong> Last electron in p orbital → p-block\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Group 14, Period 3, p-block (Silicon)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5iv",
+    "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Deduce the group, period and block of the element with atomic number 12",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Group 2, Period 3, s-block"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Element Identification from Atomic Number</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Element</strong><br>\n    Atomic number 12 = Magnesium (Mg)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Electronic Configuration</strong><br>\n    1s² 2s² 2p⁶ 3s²\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine Properties</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0;'>\n      • <strong>Period:</strong> Highest n = 3 → Period 3<br>\n      • <strong>Group:</strong> 2 valence electrons (3s²) → Group 2 (Alkaline earth metals)<br>\n      • <strong>Block:</strong> Last electron in s orbital → s-block\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Group 2, Period 3, s-block (Magnesium)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Chemical Thermodynamics"],
+    "Question": {
+      "content": "Calculate the standard enthalpy change of formation of ethane using Hess's Law and the given combustion data",
+      "type": "subjective",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-84.6 kJ/mol"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Hess's Law Application for Formation Enthalpy</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Target Formation Reaction</strong><br>\n    2C(graphite) + 3H₂(g) → C₂H₆(g) &emsp; ΔH°f = ?\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Given Combustion Reactions</strong><br>\n    (1) C₂H₆ + ⁷/₂O₂ → 2CO₂ + 3H₂O &emsp; ΔH = -1560.0 kJ<br>\n    (2) C + O₂ → CO₂ &emsp; ΔH = -197.0 kJ<br>\n    (3) H₂ + ½O₂ → H₂O &emsp; ΔH = -286.0 kJ\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Rearrange Equations</strong><br>\n    Reverse (1): 2CO₂ + 3H₂O → C₂H₆ + ⁷/₂O₂ &emsp; ΔH = +1560.0 kJ<br>\n    Multiply (2) by 2: 2C + 2O₂ → 2CO₂ &emsp; ΔH = -394.0 kJ<br>\n    Multiply (3) by 3: 3H₂ + ³/₂O₂ → 3H₂O &emsp; ΔH = -858.0 kJ\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Add Reactions</strong><br>\n    (2CO₂ + 3H₂O → C₂H₆ + ⁷/₂O₂) + (2C + 2O₂ → 2CO₂) + (3H₂ + ³/₂O₂ → 3H₂O)<br>\n    Cancel: 2CO₂, 3H₂O, ⁷/₂O₂<br>\n    Result: 2C + 3H₂ → C₂H₆\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Calculate ΔH°f</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ΔH°f = +1560.0 + (-394.0) + (-858.0) = -84.6 kJ/mol\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Standard enthalpy of formation of ethane = -84.6 kJ/mol\n  </div>\n</div>"
+    }
+  }
+]
