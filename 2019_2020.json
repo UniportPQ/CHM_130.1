@@ -457,7 +457,7 @@
     "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "Identify the group in the periodic table for element with outer electronic configuration: ns²np⁴",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
@@ -475,7 +475,7 @@
     "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "Identify the group in the periodic table for element with outer electronic configuration: ns²np⁶",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
@@ -493,7 +493,7 @@
     "topic": ["Periodic Table", "Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "Identify the group in the periodic table for element with outer electronic configuration: ns²np¹",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
@@ -511,7 +511,7 @@
     "topic": ["Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "What is the chemical symbol of the species composed of: 12p, 12n, 12e",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
@@ -529,7 +529,7 @@
     "topic": ["Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "What is the chemical symbol of the species composed of: 20p, 20n, 18e",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
@@ -547,7 +547,7 @@
     "topic": ["Atomic Structure and Quantum Theory"],
     "Question": {
       "content": "What is the chemical symbol of the species composed of: 35p, 45n, 36e",
-      "type": "OBJ",
+      "type": "subjective",
       "options": []
     },
     "Answer": {
