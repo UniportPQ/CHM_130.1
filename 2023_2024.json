@@ -1,0 +1,650 @@
+[
+{
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "General Chemistry I",
+  "code": "CHM 130.1",
+  "session": "2023/2024",
+  "topics": ["Units and measurement", "Atomic Theory and Chemical Equations", "Gaseous State", "Atomic Structure and Quantum Theory", "Chemical Bonding", "Chemical Thermodynamics", "Periodic Table"],
+  "time": "90"
+},
+{
+  "type": "Instruction",
+  "content": "Attempt All Questions"
+},
+{
+  "type": "Question",
+  "name": "Question 1",
+  "topic": ["Units and measurement"],
+  "Question": {
+    "content": "Round off the number 6.81853 m to four significant figures.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "6.819 m"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Rounding to Significant Figures</h4><p><strong>Step 1: Identify the number of significant figures required</strong><br>We need to round 6.81853 to 4 significant figures.</p><p><strong>Step 2: Locate the fourth significant figure</strong><br>6.81853<br>1st digit: 6<br>2nd digit: 8<br>3rd digit: 1<br>4th digit: 8<br>5th digit: 5 (this is the digit we look at to decide rounding)</p><p><strong>Step 3: Apply rounding rules</strong><br>Since the 5th digit (5) is 5 or greater, we round up the 4th digit (8) by 1.<br>8 + 1 = 9</p><p><strong>Step 4: Write the rounded number</strong><br>6.819 m (keeping 4 significant figures: 6, 8, 1, 9)</p><p style='color: var(--cAns); font-weight: bold;'>6.81853 m rounded to four significant figures is 6.819 m.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 2",
+  "topic": ["Units and measurement"],
+  "Question": {
+    "content": "Luminous intensity is not a basic SI unit. True or False?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "False"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Basic SI Units</h4><p><strong>Step 1: Recall the seven basic SI units</strong><br>The International System of Units (SI) has seven base units:<br>• meter (m) - length<br>• kilogram (kg) - mass<br>• second (s) - time<br>• ampere (A) - electric current<br>• kelvin (K) - temperature<br>• mole (mol) - amount of substance<br>• <strong>candela (cd) - luminous intensity</strong></p><p><strong>Step 2: Check the statement</strong><br>The statement says \"Luminous intensity is not a basic SI unit.\"<br>But from the list above, luminous intensity (candela) IS a basic SI unit.</p><p><strong>Step 3: Conclusion</strong><br>Therefore, the statement is false.</p><p style='color: var(--cAns); font-weight: bold;'>The statement is False.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 3",
+  "topic": ["Units and measurement"],
+  "Question": {
+    "content": "What is the temperature in Fahrenheit (°F) of a CaCO₃ solution at 109°C?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "228.2°F"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Celsius to Fahrenheit Conversion</h4><p><strong>Step 1: Recall the conversion formula</strong><br>\\( °F = (°C \\times \\frac{9}{5}) + 32 \\)</p><p><strong>Step 2: Substitute the given temperature</strong><br>\\( °F = (109 \\times \\frac{9}{5}) + 32 \\)<br>\\( °F = (109 \\times 1.8) + 32 \\)</p><p><strong>Step 3: Calculate step by step</strong><br>\\( 109 \\times 1.8 = 196.2 \\)<br>\\( 196.2 + 32 = 228.2 \\)</p><p style='color: var(--cAns); font-weight: bold;'>109°C is equal to 228.2°F.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 4",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Write the balanced equation for the reaction between hydrochloric acid (HCl) and silica (SiO₂) to give the products silicon tetrafluoride (SiF₄) and water (H₂O).",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "SiO₂ + 4HF → SiF₄ + 2H₂O"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Balancing Chemical Equations</h4><p><strong>Step 1: Write the unbalanced equation</strong><br>SiO₂ + HCl → SiF₄ + H₂O</p><p><strong>Step 2: Check atoms on each side</strong><br>Left side: Si=1, O=2, H=1, Cl=1<br>Right side: Si=1, F=4, H=2, O=1</p><p><strong>Step 3: Balance fluorine first</strong><br>Left has no F, right has 4 F. So we need F on left - but HCl doesn't contain F! This suggests a problem - HCl has chlorine, not fluorine.</p><p><strong>Step 4: Recognize the likely intended reactants</strong><br>The products SiF₄ contains fluorine, so the acid must be hydrofluoric acid (HF), not hydrochloric acid (HCl). The correct reaction should be:<br>SiO₂ + 4HF → SiF₄ + 2H₂O</p><p><strong>Step 5: Balance the corrected equation</strong><br>Check: Left: Si=1, O=2, H=4, F=4<br>Right: Si=1, F=4, H=4, O=2 (from 2H₂O)<br>The equation is balanced.</p><p style='color: var(--cAns); font-weight: bold;'>The balanced equation is: SiO₂ + 4HF → SiF₄ + 2H₂O</p><p><em>Note: The question mentions HCl but products contain F, which is impossible. HF is the correct reactant.</em></p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 5",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Give the appropriate ratio of X and Y in the balanced equation of: Fe₂O₃ + XCO → 2Fe + YCO₂",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "X = 3, Y = 3, so X:Y = 1:1"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Balancing the Equation</h4><p><strong>Step 1: Write the unbalanced equation</strong><br>Fe₂O₃ + XCO → 2Fe + YCO₂</p><p><strong>Step 2: Balance iron (Fe)</strong><br>Left: Fe = 2 (from Fe₂O₃)<br>Right: Fe = 2 (given as 2Fe)<br>Iron is already balanced.</p><p><strong>Step 3: Balance oxygen (O)</strong><br>Left: O from Fe₂O₃ = 3, O from XCO = X (each CO has 1 O)<br>Total O on left = 3 + X<br>Right: O from YCO₂ = 2Y (each CO₂ has 2 O)<br>Equation: 3 + X = 2Y</p><p><strong>Step 4: Balance carbon (C)</strong><br>Left: C = X (from XCO)<br>Right: C = Y (from YCO₂)<br>Equation: X = Y</p><p><strong>Step 5: Solve the system</strong><br>From X = Y, substitute into 3 + X = 2X<br>3 + X = 2X<br>3 = X<br>Therefore X = 3 and Y = 3</p><p><strong>Step 6: Write the balanced equation</strong><br>Fe₂O₃ + 3CO → 2Fe + 3CO₂</p><p style='color: var(--cAns); font-weight: bold;'>X = 3, Y = 3, so the ratio X:Y is 1:1.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 6",
+  "topic": ["Atomic Theory and Chemical Equations", "Gaseous State"],
+  "Question": {
+    "content": "From the balanced equation of question 5 (Fe₂O₃ + 3CO → 2Fe + 3CO₂), what volume of CO at STP will be required to convert 200 g of Fe₂O₃ to Fe?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "84 L"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Volume of Gas at STP from Mass</h4><p><strong>Step 1: Find molar mass of Fe₂O₃</strong><br>Fe: 56 g/mol × 2 = 112 g/mol<br>O: 16 g/mol × 3 = 48 g/mol<br>Molar mass Fe₂O₃ = 112 + 48 = 160 g/mol</p><p><strong>Step 2: Calculate moles of Fe₂O₃ in 200 g</strong><br>Moles = \\( \\frac{200}{160} = 1.25 \\) mol</p><p><strong>Step 3: Use balanced equation to find moles of CO</strong><br>Fe₂O₃ + 3CO → 2Fe + 3CO₂<br>1 mol Fe₂O₃ requires 3 mol CO<br>So 1.25 mol Fe₂O₃ requires 1.25 × 3 = 3.75 mol CO</p><p><strong>Step 4: Convert moles CO to volume at STP</strong><br>At STP, 1 mole of any gas occupies 22.4 L<br>Volume = 3.75 × 22.4 = 84 L</p><p style='color: var(--cAns); font-weight: bold;'>84 L of CO at STP is required.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 7",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "The mass of Fe produced from 10 g of iron(III) oxide as shown from the balanced equation in question 5 (Fe₂O₃ + 3CO → 2Fe + 3CO₂) is?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "7 g"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Mass of Product from Reactant</h4><p><strong>Step 1: Find molar mass of Fe₂O₃</strong><br>Fe: 56 g/mol × 2 = 112 g/mol<br>O: 16 g/mol × 3 = 48 g/mol<br>Molar mass Fe₂O₃ = 160 g/mol</p><p><strong>Step 2: Calculate moles of Fe₂O₃ in 10 g</strong><br>Moles = \\( \\frac{10}{160} = 0.0625 \\) mol</p><p><strong>Step 3: Use balanced equation to find moles of Fe produced</strong><br>Fe₂O₃ + 3CO → 2Fe + 3CO₂<br>1 mol Fe₂O₃ produces 2 mol Fe<br>So 0.0625 mol Fe₂O₃ produces 0.0625 × 2 = 0.125 mol Fe</p><p><strong>Step 4: Convert moles Fe to mass</strong><br>Molar mass Fe = 56 g/mol<br>Mass = 0.125 × 56 = 7 g</p><p style='color: var(--cAns); font-weight: bold;'>7 g of Fe is produced.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 8",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Calculate the number of atoms of carbon contained in 2 × 10⁻⁴ g of carbon.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1.003 × 10¹⁹ atoms"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Number of Atoms from Mass</h4><p><strong>Step 1: Find molar mass of carbon</strong><br>Atomic mass of C = 12 g/mol</p><p><strong>Step 2: Calculate moles of carbon</strong><br>Moles = \\( \\frac{\\text{mass}}{\\text{molar mass}} = \\frac{2 \\times 10^{-4}}{12} \\)<br>Moles = \\( 1.667 \\times 10^{-5} \\) mol</p><p><strong>Step 3: Use Avogadro's number to find number of atoms</strong><br>Avogadro's number \\( N_A = 6.022 \\times 10^{23} \\) atoms/mol<br>Number of atoms = moles × \\( N_A \\)<br>= \\( 1.667 \\times 10^{-5} \\times 6.022 \\times 10^{23} \\)</p><p><strong>Step 4: Calculate</strong><br>\\( 1.667 \\times 6.022 = 10.036 \\)<br>\\( 10^{-5} \\times 10^{23} = 10^{18} \\)<br>= \\( 1.0036 \\times 10^{19} \\) atoms</p><p style='color: var(--cAns); font-weight: bold;'>There are approximately 1.003 × 10¹⁹ atoms of carbon.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 9",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "Which experiments can be credited to the following scientists: (a) Robert A. Millikan, (b) James Chadwick?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Millikan: Oil drop experiment (charge of electron); Chadwick: Discovery of neutron"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Important Physics Experiments</h4><p><strong>Robert A. Millikan (1909)</strong><br>• Conducted the famous <strong>Oil Drop Experiment</strong><br>• Measured the charge of a single electron<br>• Proved that electric charge is quantized<br>• Determined the value of elementary charge \\( e = 1.602 \\times 10^{-19} \\) C</p><p><strong>James Chadwick (1932)</strong><br>• Discovered the <strong>neutron</strong><br>• Bombarded beryllium with alpha particles<br>• Observed radiation that could not be deflected by electric or magnetic fields<br>• Concluded that this radiation consisted of neutral particles with mass similar to protons</p><p style='color: var(--cAns); font-weight: bold;'>Millikan: Oil drop experiment; Chadwick: Discovery of the neutron.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 10",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Name the two leading scientists that verified the law of conservation of mass.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Antoine Lavoisier and Mikhail Lomonosov"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Law of Conservation of Mass</h4><p><strong>Background:</strong><br>The law of conservation of mass states that mass is neither created nor destroyed in chemical reactions.</p><p><strong>Key Scientists:</strong><br>• <strong>Antoine Lavoisier (1743-1794)</strong> - French chemist who established the law through careful quantitative experiments. He is often called the \"Father of Modern Chemistry.\"</p><p>• <strong>Mikhail Lomonosov (1711-1765)</strong> - Russian scientist who independently formulated the law earlier than Lavoisier, though his work was less known outside Russia.</p><p><strong>Lavoisier's Experiment:</strong><br>He heated tin and lead in sealed vessels and showed that the total mass remained constant, proving that matter is not lost during chemical reactions.</p><p style='color: var(--cAns); font-weight: bold;'>The two scientists are Antoine Lavoisier and Mikhail Lomonosov.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 11",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "The failure to explain the origin of line spectral phenomenon in atoms of elements is the shortcoming of whose model of the atom?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Rutherford's model"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Atomic Models and Line Spectra</h4><p><strong>Rutherford's Model (1911):</strong><br>• Proposed that atoms have a small, dense, positively charged nucleus with electrons orbiting around it<br>• Could explain the nuclear structure but had limitations</p><p><strong>Shortcomings of Rutherford's Model:</strong><br>• Could not explain the stability of atoms - according to classical physics, accelerating electrons should radiate energy and spiral into the nucleus<br>• <strong>Could not explain line spectra</strong> - atoms emit light only at specific wavelengths (line spectra), but Rutherford's model predicted continuous spectra</p><p><strong>Solution:</strong><br>Bohr's model (1913) later explained line spectra by proposing that electrons exist in specific energy levels and emit photons when jumping between levels.</p><p style='color: var(--cAns); font-weight: bold;'>The failure to explain line spectra is a shortcoming of Rutherford's model.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 12",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "The existence of atoms of an element with different atomic mass is referred to as:",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Isotopy"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Isotopes</h4><p><strong>Definition:</strong><br>Isotopes are atoms of the same element that have the same number of protons (same atomic number) but different numbers of neutrons (different mass numbers).</p><p><strong>Key Characteristics:</strong><br>• Same chemical properties (due to same electron configuration)<br>• Different physical properties (due to different masses)<br>• Examples: Carbon-12, Carbon-13, Carbon-14</p><p><strong>Terminology:</strong><br>The phenomenon is called <strong>isotopy</strong>, and the atoms are called isotopes.</p><p style='color: var(--cAns); font-weight: bold;'>This phenomenon is called isotopy.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 13",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "How many moles are present in 116 g of NaCl?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1.98 mol ≈ 2 mol"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Moles from Mass</h4><p><strong>Step 1: Find molar mass of NaCl</strong><br>Na: 23 g/mol<br>Cl: 35.5 g/mol<br>Molar mass NaCl = 23 + 35.5 = 58.5 g/mol</p><p><strong>Step 2: Calculate moles</strong><br>Moles = \\( \\frac{\\text{mass}}{\\text{molar mass}} = \\frac{116}{58.5} \\)</p><p><strong>Step 3: Perform division</strong><br>\\( 116 \\div 58.5 = 1.983 \\approx 1.98 \\) mol</p><p style='color: var(--cAns); font-weight: bold;'>116 g of NaCl contains approximately 1.98 moles.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 14",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Heating of calcium carbonate to obtain calcium oxide is a ______ change.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Chemical"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Chemical vs Physical Changes</h4><p><strong>Step 1: Understand the reaction</strong><br>When calcium carbonate (CaCO₃) is heated, it decomposes:<br>\\( CaCO_3 \\xrightarrow{\\Delta} CaO + CO_2 \\)</p><p><strong>Step 2: Identify the type of change</strong><br>• New substances are formed (calcium oxide and carbon dioxide)<br>• The change is irreversible under normal conditions<br>• Chemical bonds are broken and formed</p><p><strong>Step 3: Conclusion</strong><br>This is a chemical change (decomposition reaction).</p><p style='color: var(--cAns); font-weight: bold;'>Heating calcium carbonate to obtain calcium oxide is a chemical change.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 15",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "Calculate the average atomic mass of Neon (Ne), given the following isotopes: Ne²⁰ (19.99244 amu, 90.51%), Ne²¹ (20.99395 amu, 0.27%), and Ne²² (21.99138 amu, 9.22%).",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "20.18 amu"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Average Atomic Mass Calculation</h4><p><strong>Step 1: Recall the formula</strong><br>Average atomic mass = Σ (mass of isotope × fractional abundance)</p><p><strong>Step 2: Convert percentages to fractions</strong><br>Ne²⁰: 90.51% = 0.9051<br>Ne²¹: 0.27% = 0.0027<br>Ne²²: 9.22% = 0.0922</p><p><strong>Step 3: Calculate each contribution</strong><br>Ne²⁰: 19.99244 × 0.9051 = 18.0952<br>Ne²¹: 20.99395 × 0.0027 = 0.0567<br>Ne²²: 21.99138 × 0.0922 = 2.0276</p><p><strong>Step 4: Sum all contributions</strong><br>18.0952 + 0.0567 + 2.0276 = 20.1795 amu</p><p style='color: var(--cAns); font-weight: bold;'>The average atomic mass of Neon is approximately 20.18 amu.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 16",
+  "topic": ["Chemical Bonding"],
+  "Question": {
+    "content": "What are the oxidation numbers of chromium (Cr) in K₂Cr₂O₇ and CrCl₄?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "In K₂Cr₂O₇: +6, In CrCl₄: +4"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Calculating Oxidation Numbers</h4><p><strong>For K₂Cr₂O₇:</strong><br>Step 1: Known oxidation numbers<br>K = +1 (Group 1 metal)<br>O = -2 (except in peroxides)<br>Overall compound is neutral: sum = 0</p><p>Step 2: Let oxidation number of Cr = x<br>2(+1) + 2x + 7(-2) = 0<br>2 + 2x - 14 = 0<br>2x - 12 = 0<br>2x = 12<br>x = +6</p><p><strong>For CrCl₄:</strong><br>Step 1: Cl = -1 (halide)<br>Step 2: Let oxidation number of Cr = x<br>x + 4(-1) = 0<br>x - 4 = 0<br>x = +4</p><p style='color: var(--cAns); font-weight: bold;'>Oxidation numbers: K₂Cr₂O₇: Cr = +6, CrCl₄: Cr = +4</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 17",
+  "topic": ["Gaseous State"],
+  "Question": {
+    "content": "Calculate the molar mass of a gas if 12.6 g occupies 5.11 L at 1.12 atm and 22°C.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "53.3 g/mol"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Molar Mass from Ideal Gas Law</h4><p><strong>Step 1: Write the ideal gas law and rearrange</strong><br>PV = nRT, and n = mass/molar mass (m/M)<br>So: PV = (m/M)RT<br>M = (mRT)/(PV)</p><p><strong>Step 2: Convert temperature to Kelvin</strong><br>T = 22°C + 273 = 295 K</p><p><strong>Step 3: Identify given values</strong><br>m = 12.6 g<br>P = 1.12 atm<br>V = 5.11 L<br>R = 0.0821 L·atm/(mol·K)</p><p><strong>Step 4: Substitute into formula</strong><br>M = \\( \\frac{12.6 \\times 0.0821 \\times 295}{1.12 \\times 5.11} \\)</p><p><strong>Step 5: Calculate numerator</strong><br>12.6 × 0.0821 = 1.03446<br>1.03446 × 295 = 305.1657</p><p><strong>Step 6: Calculate denominator</strong><br>1.12 × 5.11 = 5.7232</p><p><strong>Step 7: Divide</strong><br>305.1657 ÷ 5.7232 = 53.3 g/mol</p><p style='color: var(--cAns); font-weight: bold;'>The molar mass is approximately 53.3 g/mol.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 18",
+  "topic": ["Atomic Theory and Chemical Equations"],
+  "Question": {
+    "content": "Convert 1.25 g of NaCl per 35 mL solution to ppt NaCl (parts per thousand).",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "35.7 ppt"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Parts Per Thousand (ppt) Conversion</h4><p><strong>Step 1: Understand ppt definition</strong><br>Parts per thousand (ppt) means grams of solute per 1000 mL (or 1000 g) of solution.</p><p><strong>Step 2: Set up proportion</strong><br>We have 1.25 g NaCl in 35 mL solution.<br>For 1000 mL solution, mass of NaCl = ?</p><p><strong>Step 3: Calculate</strong><br>\\[ \\frac{1.25}{35} = \\frac{x}{1000} \\]<br>\\[ x = \\frac{1.25 \\times 1000}{35} \\]<br>\\[ x = \\frac{1250}{35} = 35.714 \\, \\text{g} \\]</p><p><strong>Step 4: Express as ppt</strong><br>35.714 g per 1000 mL = 35.7 ppt</p><p style='color: var(--cAns); font-weight: bold;'>The concentration is 35.7 ppt NaCl.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 19",
+  "topic": ["Gaseous State"],
+  "Question": {
+    "content": "What is the volume of nitrogen gas that has the same number of molecules as steam of 250 dm³ at constant temperature and pressure? (Leave your answer in m³)",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "0.25 m³"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Avogadro's Law</h4><p><strong>Step 1: Recall Avogadro's Law</strong><br>At constant temperature and pressure, equal volumes of gases contain equal numbers of molecules.</p><p><strong>Step 2: Apply the law</strong><br>If nitrogen gas (N₂) has the same number of molecules as steam (H₂O vapor), then they must occupy the same volume at the same temperature and pressure.</p><p><strong>Step 3: Convert units</strong><br>Steam volume = 250 dm³<br>1 dm³ = 0.001 m³<br>250 dm³ = 250 × 0.001 = 0.25 m³</p><p>Therefore, nitrogen gas volume = 0.25 m³</p><p style='color: var(--cAns); font-weight: bold;'>The volume of nitrogen gas is 0.25 m³.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 20",
+  "topic": ["Gaseous State"],
+  "Question": {
+    "content": "Give the mathematical expression of Boyle's law.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "P₁V₁ = P₂V₂ or PV = constant (at constant temperature and fixed mass of gas)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Boyle's Law</h4><p><strong>Statement:</strong><br>Boyle's law states that at constant temperature, the pressure of a fixed mass of gas is inversely proportional to its volume.</p><p><strong>Mathematical Expression:</strong><br>\\( P \\propto \\frac{1}{V} \\) (at constant T and n)<br>Or: \\( P \\times V = \\text{constant} \\)<br>Or for two states: \\( P_1V_1 = P_2V_2 \\)</p><p><strong>Where:</strong><br>P = pressure of the gas<br>V = volume of the gas<br>The product PV remains constant as long as temperature and amount of gas don't change.</p><p style='color: var(--cAns); font-weight: bold;'>Boyle's law: P₁V₁ = P₂V₂ or PV = constant.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 21",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "What are the chemical symbols of the species composed of each of the following sets of subatomic particles? i) 20p, 20n, 18e ii) 35p, 45n, 36e",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "i) Ca²⁺, ii) Br⁻"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Identifying Ions from Subatomic Particles</h4><p><strong>General approach:</strong><br>• Atomic number (Z) = number of protons = identifies the element<br>• Mass number (A) = protons + neutrons<br>• Charge = protons - electrons</p><p><strong>For i) 20p, 20n, 18e:</strong><br>Atomic number = 20 → element is Calcium (Ca)<br>Mass number = 20 + 20 = 40<br>Charge = 20 - 18 = +2<br>Therefore: \\( \\text{Ca}^{2+} \\) or \\( ^{40}_{20}\\text{Ca}^{2+} \\)</p><p><strong>For ii) 35p, 45n, 36e:</strong><br>Atomic number = 35 → element is Bromine (Br)<br>Mass number = 35 + 45 = 80<br>Charge = 35 - 36 = -1<br>Therefore: \\( \\text{Br}^- \\) or \\( ^{80}_{35}\\text{Br}^- \\)</p><p style='color: var(--cAns); font-weight: bold;'>i) Ca²⁺, ii) Br⁻</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 22",
+  "topic": ["Chemical Thermodynamics"],
+  "Question": {
+    "content": "Calculate the change in the internal energy of the system for a process in which the system absorbs 140 J of heat from the surroundings and does 85 J of work on the surroundings.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "+55 J"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>First Law of Thermodynamics</h4><p><strong>Step 1: Recall the first law equation</strong><br>\\( \\Delta U = Q - W \\)<br>Where:<br>\\( \\Delta U \\) = change in internal energy<br>\\( Q \\) = heat absorbed by the system (positive if absorbed)<br>\\( W \\) = work done BY the system (positive if work is done BY system)</p><p><strong>Step 2: Identify given values</strong><br>Q = +140 J (system absorbs heat)<br>W = +85 J (system does work on surroundings)</p><p><strong>Step 3: Apply the formula</strong><br>\\( \\Delta U = 140 - 85 = +55 \\, J \\)</p><p><strong>Step 4: Interpret the result</strong><br>Positive \\( \\Delta U \\) means the internal energy of the system increased by 55 J.</p><p style='color: var(--cAns); font-weight: bold;'>The change in internal energy is +55 J.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 23",
+  "topic": ["Chemical Thermodynamics"],
+  "Question": {
+    "content": "At what conditions can the bomb calorimeter be converted from measuring the internal energy of a system to the enthalpy of the system?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Constant pressure and when only PV work is considered"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Bomb Calorimeter and Enthalpy</h4><p><strong>Step 1: Understand what a bomb calorimeter measures</strong><br>A bomb calorimeter measures heat at constant volume (qᵥ). At constant volume, no PV work is done, so qᵥ = ΔU (change in internal energy).</p><p><strong>Step 2: Relationship between ΔU and ΔH</strong><br>Enthalpy change ΔH = ΔU + Δ(PV)<br>For ideal gases, ΔH = ΔU + ΔnRT, where Δn is the change in moles of gas.</p><p><strong>Step 3: Conditions for conversion</strong><br>To convert from ΔU (measured by bomb calorimeter) to ΔH, we need:<br>• <strong>Constant pressure conditions</strong> - because enthalpy is defined at constant pressure<br>• <strong>Knowledge of Δn or PV work</strong> - to account for the Δ(PV) term</p><p style='color: var(--cAns); font-weight: bold;'>The conditions are constant pressure and when PV work can be accounted for.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 24",
+  "topic": ["Chemical Thermodynamics"],
+  "Question": {
+    "content": "Under isolated conditions, the change in internal energy for an ideal gas is ______.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Zero"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Internal Energy in Isolated Systems</h4><p><strong>Step 1: Define an isolated system</strong><br>An isolated system exchanges neither matter nor energy with its surroundings. This means:<br>• No heat transfer (Q = 0)<br>• No work done (W = 0)</p><p><strong>Step 2: Apply the first law of thermodynamics</strong><br>ΔU = Q - W<br>ΔU = 0 - 0 = 0</p><p><strong>Step 3: Consider ideal gas behavior</strong><br>For an ideal gas, internal energy depends only on temperature. In an isolated system, if no energy exchange occurs, temperature remains constant, so ΔU = 0.</p><p style='color: var(--cAns); font-weight: bold;'>Under isolated conditions, the change in internal energy for an ideal gas is zero.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 25",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "The quantum numbers that defines the energy level and geometric shape of each of the orbitals are: ______ and ______.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Principal quantum number (n) and azimuthal/angular momentum quantum number (l)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Quantum Numbers</h4><p><strong>Step 1: Identify the four quantum numbers</strong><br>• Principal quantum number (n) - energy level and size<br>• Azimuthal/angular momentum quantum number (l) - shape of orbital<br>• Magnetic quantum number (m_l) - orientation in space<br>• Spin quantum number (m_s) - spin of electron</p><p><strong>Step 2: Determine which define energy level and shape</strong><br>• <strong>Energy level</strong> is primarily defined by the principal quantum number (n)<br>• <strong>Geometric shape</strong> is defined by the azimuthal quantum number (l)<br>  - l = 0: s orbital (spherical)<br>  - l = 1: p orbital (dumbbell)<br>  - l = 2: d orbital (cloverleaf)<br>  - l = 3: f orbital (complex)</p><p style='color: var(--cAns); font-weight: bold;'>The quantum numbers are principal quantum number (n) and azimuthal quantum number (l).</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 26",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "Predict the number of subshells in the fourth shell, that is for n = 4.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "4 subshells"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Subshells in an Electron Shell</h4><p><strong>Step 1: Recall the relationship between n and l</strong><br>The azimuthal quantum number l can have values from 0 to (n-1).<br>For each value of l, there is a corresponding subshell.</p><p><strong>Step 2: Apply for n = 4</strong><br>l can be: 0, 1, 2, 3<br>• l = 0: s subshell (4s)<br>• l = 1: p subshell (4p)<br>• l = 2: d subshell (4d)<br>• l = 3: f subshell (4f)</p><p><strong>Step 3: Count the subshells</strong><br>Number of subshells = number of possible l values = n = 4</p><p style='color: var(--cAns); font-weight: bold;'>The fourth shell (n=4) has 4 subshells: 4s, 4p, 4d, and 4f.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 27",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "The three dimensional region of space around the nucleus where there is maximum probability of finding the electron is called?",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Atomic orbital"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Atomic Orbital Definition</h4><p><strong>Step 1: Understand the quantum mechanical model</strong><br>According to quantum mechanics, we cannot pinpoint the exact location of an electron. Instead, we describe the probability of finding an electron in a region of space.</p><p><strong>Step 2: Define the term</strong><br>An <strong>atomic orbital</strong> is a three-dimensional region around the nucleus where there is a high probability (typically 90-95%) of finding an electron.</p><p><strong>Step 3: Distinguish from other terms</strong><br>• Orbit: Classical concept of a fixed path (like planets around the sun) - incorrect for electrons<br>• Orbital: Quantum mechanical concept of probability distribution</p><p style='color: var(--cAns); font-weight: bold;'>This region is called an atomic orbital.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 28",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "List the possible values for the M_L quantum number in the d-orbitals.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "-2, -1, 0, +1, +2"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Magnetic Quantum Number for d-Orbitals</h4><p><strong>Step 1: Recall the relationship between l and m_l</strong><br>The magnetic quantum number m_l (also written as M_L) can have integer values from -l to +l, including zero.</p><p><strong>Step 2: Identify l for d-orbitals</strong><br>d-orbitals correspond to azimuthal quantum number l = 2.</p><p><strong>Step 3: Determine possible m_l values</strong><br>For l = 2: m_l = -2, -1, 0, +1, +2</p><p><strong>Step 4: Significance</strong><br>These 5 values correspond to the 5 d-orbitals: d<sub>xy</sub>, d<sub>xz</sub>, d<sub>yz</sub>, d<sub>x²-y²</sub>, d<sub>z²</sub></p><p style='color: var(--cAns); font-weight: bold;'>The possible M_L values for d-orbitals are -2, -1, 0, +1, +2.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 29",
+  "topic": ["Atomic Structure and Quantum Theory"],
+  "Question": {
+    "content": "Write the full electronic configuration of the species Al³⁺.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "1s² 2s² 2p⁶"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Electronic Configuration of Al³⁺</h4><p><strong>Step 1: Find the atomic number of Al</strong><br>Aluminum (Al) has atomic number 13, meaning a neutral Al atom has 13 electrons.</p><p><strong>Step 2: Write electronic configuration of neutral Al</strong><br>Al (13 electrons): 1s² 2s² 2p⁶ 3s² 3p¹</p><p><strong>Step 3: Remove electrons to form Al³⁺</strong><br>Al³⁺ means the atom has lost 3 electrons. Electrons are removed from the outermost shells first:<br>• Remove 3p¹ (1 electron)<br>• Remove 3s² (2 electrons)<br>Total removed = 3 electrons</p><p><strong>Step 4: Write configuration of Al³⁺</strong><br>Remaining electrons: 1s² 2s² 2p⁶ (10 electrons)<br>This is the same configuration as Neon (Ne).</p><p style='color: var(--cAns); font-weight: bold;'>Al³⁺ has the electronic configuration: 1s² 2s² 2p⁶.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 30",
+  "topic": ["Periodic Table"],
+  "Question": {
+    "content": "Identify the group in the periodic table of elements with the following outer electronic configuration: i) nS² np⁶; ii) nS² np¹.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "i) Group 18 (Noble gases), ii) Group 13 (Boron group)"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Identifying Groups from Electronic Configuration</h4><p><strong>For i) nS² np⁶:</strong><br>• This configuration represents a completely filled outer shell (octet)<br>• Elements with this configuration are chemically inert (noble gases)<br>• They belong to <strong>Group 18</strong> (formerly Group VIII or 0)<br>• Examples: He (1s²), Ne (2s²2p⁶), Ar (3s²3p⁶)</p><p><strong>For ii) nS² np¹:</strong><br>• This configuration has 3 electrons in the outer shell (2 in s, 1 in p)<br>• These elements have 3 valence electrons<br>• They belong to <strong>Group 13</strong> (Boron group)<br>• Examples: B (2s²2p¹), Al (3s²3p¹), Ga (4s²4p¹)</p><p style='color: var(--cAns); font-weight: bold;'>i) Group 18 (Noble gases), ii) Group 13 (Boron group).</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 31",
+  "topic": ["Periodic Table"],
+  "Question": {
+    "content": "Arrange the following atoms in order of their increasing electronegativities: Si, F, V, O, Cs, S and Zn.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "Cs < V < Zn < Si < S < O < F"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Electronegativity Trends</h4><p><strong>Step 1: Recall electronegativity trends</strong><br>• Increases from left to right across a period<br>• Decreases from top to bottom down a group<br>• Fluorine (F) is the most electronegative element (4.0 on Pauling scale)</p><p><strong>Step 2: Identify approximate electronegativity values</strong><br>Cs (Cesium) = 0.79 (very low, bottom left)<br>V (Vanadium) = 1.63 (transition metal)<br>Zn (Zinc) = 1.65 (transition metal)<br>Si (Silicon) = 1.90 (metalloid)<br>S (Sulfur) = 2.58 (nonmetal)<br>O (Oxygen) = 3.44 (very high)<br>F (Fluorine) = 3.98 (highest)</p><p><strong>Step 3: Arrange in increasing order</strong><br>Cs (0.79) < V (1.63) < Zn (1.65) < Si (1.90) < S (2.58) < O (3.44) < F (3.98)</p><p style='color: var(--cAns); font-weight: bold;'>Increasing electronegativity: Cs < V < Zn < Si < S < O < F.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 32",
+  "topic": ["Chemical Bonding"],
+  "Question": {
+    "content": "Calculate the formal charge of N and H in NH₄⁺.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "N: +1, each H: 0"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Formal Charge Calculation</h4><p><strong>Step 1: Recall the formal charge formula</strong><br>Formal charge = (Valence electrons) - (Non-bonding electrons) - ½(Bonding electrons)</p><p><strong>Step 2: Analyze NH₄⁺ structure</strong><br>NH₄⁺ has nitrogen bonded to four hydrogen atoms with single bonds. There are no lone pairs on nitrogen.</p><p><strong>Step 3: Calculate formal charge on N</strong><br>• Valence electrons of N = 5<br>• Non-bonding electrons on N = 0 (no lone pairs)<br>• Bonding electrons = 8 (4 bonds × 2 electrons each)<br>Formal charge on N = 5 - 0 - ½(8) = 5 - 4 = +1</p><p><strong>Step 4: Calculate formal charge on each H</strong><br>• Valence electrons of H = 1<br>• Non-bonding electrons on H = 0<br>• Bonding electrons = 2 (one bond)<br>Formal charge on H = 1 - 0 - ½(2) = 1 - 1 = 0</p><p style='color: var(--cAns); font-weight: bold;'>N has a formal charge of +1, and each H has a formal charge of 0.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 33",
+  "topic": ["Chemical Bonding"],
+  "Question": {
+    "content": "Draw the resonance structure of SO₃ molecule.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "img",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/CHM_130.1/2023_2024/n33a.jpg",
+    "alt": "the resonance structure of SO₃ molecule",
+    "Caption": "resonance structure of SO₃ molecule",
+    "topic": ["Chemical Bonding"]
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Resonance Structures of SO₃</h4><p><strong>Step 1: Determine the Lewis structure basics</strong><br>Sulfur (S) has 6 valence electrons, each Oxygen (O) has 6. Total valence electrons = 6 + (3×6) = 24 electrons.</p><p><strong>Step 2: Draw the resonance structures</strong><br>SO₃ has three equivalent resonance structures. In each structure:<br>• One S=O double bond<br>• Two S-O⁻ single bonds (with negative charge on oxygen)<br>• The double bond can be placed with any of the three oxygen atoms</p><p><strong>Step 3: Represent the structures</strong><br>Structure 1: O=S⁺-O⁻ with double bond to first O, single bonds to others<br>Structure 2: O⁻-S⁺=O with double bond to second O<br>Structure 3: O⁻-S⁺-O with double bond to third O</p><p><strong>Step 4: Actual structure</strong><br>The actual molecule is a hybrid of all three resonance structures, with all S-O bonds equivalent (bond order of 1.33).</p><p style='color: var(--cAns); font-weight: bold;'>SO₃ has three resonance structures with the double bond delocalized among the three oxygen atoms.</p><p>Note: Since this is a text-based response, imagine three structures with S in center, each O having a turn being double-bonded while the other two carry negative charges.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 34",
+  "topic": ["Chemical Bonding"],
+  "Question": {
+    "content": "Draw the Lewis structure of the molecule CH₃OH.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "img",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/CHM_130.1/2023_2024/n34a.png",
+    "alt": "the Lewis structure of the molecule CH₃OH.",
+    "Caption": "the Lewis structure of the molecule CH₃OH.",
+    "topic": ["Chemical Bonding"]
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Lewis Structure of CH₃OH (Methanol)</h4><p><strong>Step 1: Count total valence electrons</strong><br>C: 4 electrons × 1 = 4<br>H: 1 electron × 4 = 4 (3 H bonded to C, 1 H bonded to O)<br>O: 6 electrons × 1 = 6<br>Total = 14 valence electrons</p><p><strong>Step 2: Determine atom arrangement</strong><br>Carbon is less electronegative than oxygen, so carbon is central.<br>The structure is: H₃C-O-H (methyl group attached to oxygen, which is attached to hydrogen).</p><p><strong>Step 3: Draw bonds</strong><br>• C forms single bonds with 3 H atoms<br>• C forms single bond with O<br>• O forms single bond with H<br>Each single bond uses 2 electrons.</p><p><strong>Step 4: Distribute remaining electrons</strong><br>Bonds used: C-H (×3) = 6 electrons, C-O = 2 electrons, O-H = 2 electrons<br>Total used = 10 electrons<br>Remaining = 14 - 10 = 4 electrons (2 lone pairs)<br>These go on oxygen (which already has 2 bonds, so needs 2 lone pairs to complete octet).</p><p><strong>Step 5: Final structure</strong><br>H<br> |<br>H-C-O-H<br> |<br>H<br>O has two lone pairs (not shown in text).</p><p style='color: var(--cAns); font-weight: bold;'>The Lewis structure shows carbon single-bonded to three H atoms and one O atom, and O single-bonded to one H atom with two lone pairs on O.</p></div>"
+  }
+},
+{
+  "type": "Question",
+  "name": "Question 35",
+  "topic": ["Chemical Bonding"],
+  "Question": {
+    "content": "Determine the bond order of the molecule He₂⁺.",
+    "type": "subjective",
+    "options": []
+  },
+  "Answer": {
+    "type": "string",
+    "content": "0.5"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px;'><h4 style='color: var(--strongColor); margin-top: 0;'>Bond Order of He₂⁺</h4><p><strong>Step 1: Recall the bond order formula</strong><br>Bond order = ½(Number of bonding electrons - Number of antibonding electrons)</p><p><strong>Step 2: Determine electron configuration for He₂⁺</strong><br>Each He atom has 2 electrons. He₂ would have 4 electrons total.<br>He₂⁺ has lost one electron, so total electrons = 3.</p><p><strong>Step 3: Fill molecular orbitals for He₂</strong><br>For homonuclear diatomic molecules like He₂, the molecular orbital order is:<br>σ1s (bonding), σ*1s (antibonding)</p><p><strong>Step 4: Fill for He₂⁺ (3 electrons)</strong><br>• σ1s: holds 2 electrons (bonding)<br>• σ*1s: holds 1 electron (antibonding)</p><p><strong>Step 5: Calculate bond order</strong><br>Bonding electrons = 2<br>Antibonding electrons = 1<br>Bond order = ½(2 - 1) = ½(1) = 0.5</p><p style='color: var(--cAns); font-weight: bold;'>The bond order of He₂⁺ is 0.5.</p></div>"
+  }
+}]
