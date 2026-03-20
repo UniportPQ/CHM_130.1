@@ -380,29 +380,32 @@
     }
   },
   {
-    "type": "Question",
-    "name": "Question 16",
-    "topic": ["Atomic Structure and Quantum Theory"],
-    "Question": {
-      "content": "The designation of the orbital of n = 3, l = 1, m = 0 is:",
-      "type": "OBJ",
-      "options": [
-        "3p_y",
-        "3p_x",
-        "3s",
-        "3p_z",
-        "3d"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "3p_z"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Orbital Designation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Given quantum numbers:</strong><br>\n    n = 3, l = 1, m = 0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify subshell</strong><br>\n    n = 3 → Third energy level<br>\n    l = 1 → p subshell\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify specific orbital</strong><br>\n    For p orbitals (l = 1):<br>\n    m = -1 → p_x orbital<br>\n    m = 0 → p_z orbital<br>\n    m = +1 → p_y orbital\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Result:</strong><br>\n    n=3, l=1, m=0 corresponds to 3p_z orbital\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 3p_z\n  </div>\n</div>"
-    }
+  "type": "Question",
+  "name": "Question 16",
+  "topic": [
+    "Atomic Structure and Quantum Theory"
+  ],
+  "Question": {
+    "content": "The designation of the orbital with quantum numbers n = 3, l = 1, m = 0 is:",
+    "type": "OBJ",
+    "options": [
+      "3p_y",
+      "3p_x",
+      "3s",
+      "3p_z",
+      "3d"
+    ]
   },
+  "Answer": {
+    "type": "string",
+    "content": "3p_z"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quantum Number Breakdown</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Principal Quantum Number (n = 3):</strong><br>\n    This indicates the <strong>third energy level</strong> (shell).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Azimuthal Quantum Number (l = 1):</strong><br>\n    The value of <i>l</i> defines the shape of the orbital:<br>\n    • l=0 (s), <strong>l=1 (p)</strong>, l=2 (d), l=3 (f).<br>\n    Therefore, the subshell is <strong>3p</strong>.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Magnetic Quantum Number (m = 0):</strong><br>\n    For the p-subshell (l=1), the three orbitals (p<sub>x</sub>, p<sub>y</sub>, p<sub>z</sub>) correspond to m values of -1, 0, and +1. Conventionally:<br>\n    • <strong>m = 0</strong> is assigned to the <strong>p<sub>z</sub></strong> orbital, which lies along the internuclear axis.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Conclusion:</strong> The designation is <strong>3p<sub>z</sub></strong>.\n  </div>\n</div>"
+  }
+}
+,
   {
     "type": "Question",
     "name": "Question 17",
@@ -517,30 +520,32 @@
       "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Average Atomic Mass Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Convert percentages to decimals</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      ³⁵X: 75.770% = 0.75770<br>\n      ³⁷X: 24.230% = 0.24230\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate weighted average</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Average mass = (34.9689 × 0.75770) + (36.9659 × 0.24230)<br>\n      = 26.496 + 8.957 = 35.453 amu\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Note:</strong><br>\n    This is chlorine (Cl) with atomic mass ≈ 35.45 amu\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 35.453 amu\n  </div>\n</div>"
     }
   },
-  {
-    "type": "Question",
-    "name": "Question 22",
-    "topic": ["Atomic Theory and Chemical Equations"],
-    "Question": {
-      "content": "Determine the simplest or empirical formula of a compound that contains 82.2% of X and 17.8% of Y by mass. (X = 1.008, Y = 14.01)",
-      "type": "OBJ",
-      "options": [
-        "XY",
-        "XY₂",
-        "X₂Y",
-        "X₃Y",
-        "XY₃"
-      ]
-    },
-    "Answer": {
-      "type": "string",
-      "content": "X₂Y"
-    },
-    "Explanation": {
-      "type": "string",
-      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Empirical Formula Determination</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Assume 100g sample</strong><br>\n    X: 82.2 g, Y: 17.8 g\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate moles</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Moles X = 82.2 ÷ 1.008 = 81.55 mol<br>\n      Moles Y = 17.8 ÷ 14.01 = 1.27 mol\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find simplest ratio</strong><br>\n    Divide by smallest number (1.27):<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      X: 81.55 ÷ 1.27 = 64.2 ≈ 64<br>\n      Y: 1.27 ÷ 1.27 = 1<br>\n      Ratio X:Y = 64:1 → X₂Y (simplified)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> X₂Y\n  </div>\n</div>"
-    }
+{
+  "type": "Question",
+  "name": "Question 22",
+  "topic": [
+    "Atomic Theory and Chemical Equations"
+  ],
+  "Question": {
+    "content": "Determine the simplest or empirical formula of a compound that contains 82.2% of Y and 17.8% of X by mass. (X = 1.008, Y = 14.01)",
+    "type": "OBJ",
+    "options": [
+      "XY",
+      "XY₂",
+      "X₂Y",
+      "X₃Y",
+      "XY₃"
+    ]
   },
+  "Answer": {
+    "type": "string",
+    "content": "X₃Y"
+  },
+  "Explanation": {
+    "type": "string",
+    "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Empirical Formula Determination</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Convert Mass to Moles</strong><br>\n    Assuming a 100g sample:<br>\n    Mass of X = 17.8g, Mass of Y = 82.2g<br>\n    (Note: Based on atomic weights, Y is Nitrogen and X is Hydrogen, typical for Ammonia NH₃)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Moles</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Moles X = 17.8 ÷ 1.008 ≈ 17.66 mol<br>\n      Moles Y = 82.2 ÷ 14.01 ≈ 5.87 mol\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Divide by smallest value (5.87)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      X: 17.66 ÷ 5.87 ≈ 3.01<br>\n      Y: 5.87 ÷ 5.87 = 1\n    </div>\n    The molar ratio is approximately 3:1.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> X₃Y\n  </div>\n</div>"
+  }
+},
   {
     "type": "Question",
     "name": "Question 23",
