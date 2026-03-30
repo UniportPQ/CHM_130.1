@@ -1,0 +1,476 @@
+[
+      {
+    "type": "pageInfo",
+    "kind": "subjective",
+    "course_title": "General Chemistry 1",
+    "code": "CHM 130.1",
+    "session": "Quuiz 1",
+    "topics":["Atomic Theory and Chemical Equations", "Chemistry", "Atomic Structure and Quantum Theory", "Periodic Table", "Chemical Bonding", "Theory of Chemical Bonding", "Chemical Thermodynamics", "Gaseous State", "Mammals", "Primates", "Evolution", "Biology", "Skeleton"],
+    "time": "90"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all Questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Atomic Theory and Chemical Equations",
+    "Subheading": "Foundational concepts of matter and chemical reactions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Atomic Theory and Chemical Equations",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "According to Dalton's atomic theory, what is the smallest particle of an element that can take part in a chemical reaction?",
+      "type": "OBJ",
+      "options": [
+        "Molecule",
+        "Ion",
+        "Atom",
+        "Proton"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Dalton's Atomic Theory</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Understanding the Core Idea</strong><br>\nJohn Dalton proposed that all matter is made of tiny, indivisible particles called atoms. He believed atoms were like solid, indestructible spheres.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Applying to the Question</strong><br>\nThe question asks for the smallest particle that can take part in a reaction. According to Dalton, you cannot break an atom into anything smaller and still have that element. A molecule is a group of atoms, and an ion is a charged atom, which is still an atom at its core.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Conclusion</strong><br>\nTherefore, for Dalton, the fundamental, indivisible particle is the <strong>atom</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Atom"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Atomic Theory and Chemical Equations",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "What must be done to ensure a chemical equation follows the Law of Conservation of Mass?",
+      "type": "OBJ",
+      "options": [
+        "Write the physical states of all reactants and products",
+        "Balance the number of atoms of each element on both sides",
+        "Use the correct chemical formulas for all compounds",
+        "Indicate the reaction conditions (temperature, pressure)"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Conservation of Mass</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: What is the Law of Conservation of Mass?</strong><br>\nThis law states that matter cannot be created or destroyed in a chemical reaction. The total mass of the reactants must equal the total mass of the products.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: What does this mean for a chemical equation?</strong><br>\nFor mass to be conserved, the number of each type of atom on the left side (reactants) must be exactly the same as the number on the right side (products). You can't have a carbon atom disappear or appear from nowhere.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: How do we achieve this?</strong><br>\nWe achieve this by adding coefficients (numbers in front of formulas) until the count of each element is equal on both sides. This process is called \"balancing\" the equation.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Eliminating Other Options</strong><br>\nWriting physical states (A) or reaction conditions (D) is for information, not for mass conservation. Using correct formulas (C) is essential but doesn't guarantee the equation is balanced.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Balance the number of atoms of each element on both sides"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Atomic Structure and Quantum Theory",
+    "Subheading": "The quantum mechanical model of the atom"
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Atomic Structure and Quantum Theory",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Which quantum number defines the shape of an atomic orbital?",
+      "type": "OBJ",
+      "options": [
+        "Principal quantum number (n)",
+        "Azimuthal quantum number (l)",
+        "Magnetic quantum number (ml)",
+        "Spin quantum number (ms)"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Quantum Numbers</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: What is a Quantum Number?</strong><br>\nQuantum numbers are like the \"address\" of an electron. They tell us where an electron is likely to be found (its orbital).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Role of Each Number</strong><br>\n- <strong>Principal (n):</strong> Tells us the size and energy level (shell). Think of it as the city or floor number.<br>\n- <strong>Azimuthal (l):</strong> Tells us the shape of the orbital (subshell). Think of it as the type of building: s (sphere), p (dumbbell), d (cloverleaf), f (complex).<br>\n- <strong>Magnetic (ml):</strong> Tells us the orientation in space (e.g., px, py, pz). Think of it as the street address.<br>\n- <strong>Spin (ms):</strong> Tells us the electron's spin direction (up or down).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Answering the Question</strong><br>\nThe question asks specifically for the number that defines <strong>shape</strong>. That is the job of the Azimuthal quantum number (l).\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Azimuthal quantum number (l)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Atomic Structure and Quantum Theory",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "What is the maximum number of electrons that can be accommodated in a subshell with an azimuthal quantum number (l) of 2?",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "6",
+        "10",
+        "14"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Electron Capacity</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Decode the Quantum Number</strong><br>\nThe azimuthal quantum number (l) determines the subshell type. \\( l=0 \\) is s, \\( l=1 \\) is p, \\( l=2 \\) is d, \\( l=3 \\) is f. Here, \\( l=2 \\) means we are talking about the <strong>d-subshell</strong>.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Relating l to Magnetic Quantum Number (ml)</strong><br>\nThe magnetic quantum number (ml) tells us how many orbitals are in a subshell. ml ranges from \\( -l \\) to \\( +l \\).<br>\nFor \\( l=2 \\): ml can be -2, -1, 0, +1, +2. That's <strong>5 orbitals</strong>.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Applying the Pauli Exclusion Principle</strong><br>\nEach orbital can hold a maximum of <strong>2 electrons</strong> (one spin-up, one spin-down).<br>\nTotal electrons = (Number of orbitals) × (2 electrons/orbital) = 5 × 2 = <strong>10 electrons</strong>.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Using the Formula</strong><br>\nThis is often simplified to the formula: \\( 4l + 2 \\). Substituting \\( l=2 \\): \\( 4(2) + 2 = 8 + 2 = 10 \\).\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "10"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Periodic Table",
+    "Subheading": "Classification and trends of elements"
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Periodic Table",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Which of the following properties generally decreases across a period from left to right?",
+      "type": "OBJ",
+      "options": [
+        "Ionization energy",
+        "Electronegativity",
+        "Atomic radius",
+        "Electron affinity"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Periodic Trends</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Understanding the Setup</strong><br>\nAs we move from left to right across a period (e.g., from sodium to argon), we add one proton to the nucleus and one electron to the same outer shell.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Effect of Increasing Nuclear Charge</strong><br>\nThe increasing number of protons creates a stronger positive pull on the negatively charged electrons in the outer shell. This pull is called the effective nuclear charge.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Applying to Atomic Radius</strong><br>\nBecause the nucleus pulls the outer electrons inward more strongly, the overall size of the atom <strong>decreases</strong>. This is why the atomic radius is the property that decreases.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Why the Others Increase</strong><br>\n- <strong>Ionization energy:</strong> It takes more energy to remove an electron that is held more tightly (increases).<br>\n- <strong>Electronegativity:</strong> The atom's desire to attract an electron increases (increases).<br>\n- <strong>Electron affinity:</strong> The energy released when adding an electron generally becomes more favorable (increases).\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Atomic radius"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Periodic Table",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Elements with the highest electronegativity are found in which group of the periodic table?",
+      "type": "OBJ",
+      "options": [
+        "Group 1 (Alkali metals)",
+        "Group 2 (Alkaline earth metals)",
+        "Group 17 (Halogens)",
+        "Group 18 (Noble gases)"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Electronegativity</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Define Electronegativity</strong><br>\nElectronegativity is a measure of how strongly an atom attracts shared electrons (electrons in a chemical bond) toward itself.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Octet Rule and the Trend</strong><br>\nAtoms \"want\" to have a full outer shell of 8 electrons (the octet rule). The closer an atom is to achieving a full shell, the more strongly it will pull electrons toward itself.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Analyzing the Groups</strong><br>\n- <strong>Group 1 (Alkali Metals):</strong> Have 1 electron in their outer shell. They want to lose it, not gain more. Their electronegativity is very low.<br>\n- <strong>Group 17 (Halogens):</strong> Have 7 electrons in their outer shell. They are just <strong>one electron short</strong> of a full octet. Their desire to gain that last electron is extremely strong, giving them the highest electronegativity.<br>\n- <strong>Group 18 (Noble Gases):</strong> Have a full outer shell. They are stable and do not typically form bonds, so they have no measurable electronegativity.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Conclusion</strong><br>\nFluorine (F), Chlorine (Cl), etc., in Group 17, are the most electronegative elements.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Group 17 (Halogens)"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Chemical Bonding",
+    "Subheading": "Forces that hold atoms together"
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Chemical Bonding",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "What type of bond is formed by the complete transfer of one or more electrons from one atom to another?",
+      "type": "OBJ",
+      "options": [
+        "Covalent bond",
+        "Ionic bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Ionic Bonding</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: The Motivation</strong><br>\nAtoms bond to become more stable. One way to achieve stability is to have a full outer shell of electrons (like a noble gas).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Process of Transfer</strong><br>\nImagine a metal atom (like sodium) with one electron in its outer shell. It's easier for it to lose that electron than to gain seven. Imagine a nonmetal atom (like chlorine) with seven electrons in its outer shell. It's easier for it to gain one electron than to lose seven.<br>\nThe sodium atom donates its electron to the chlorine atom.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: The Result: Ions</strong><br>\nAfter the transfer:<br>\n- Sodium becomes a positively charged ion (Na⁺) because it has one more proton than electrons.<br>\n- Chlorine becomes a negatively charged ion (Cl⁻) because it has one more electron than protons.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: The Bond Formation</strong><br>\nThe positive sodium ion and the negative chlorine ion are now strongly attracted to each other due to their opposite charges. This electrostatic attraction is called an <strong>ionic bond</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ionic bond"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Chemical Bonding",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Which molecule has a linear geometry based on the Valence Shell Electron Pair Repulsion (VSEPR) theory?",
+      "type": "OBJ",
+      "options": [
+        "H2O (Water)",
+        "NH3 (Ammonia)",
+        "CO2 (Carbon dioxide)",
+        "CH4 (Methane)"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: VSEPR Theory & Molecular Geometry</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Core Principle of VSEPR</strong><br>\nVSEPR theory states that electron pairs (both bonding pairs and lone pairs) around a central atom will arrange themselves as far apart as possible to minimize repulsion.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Analyzing CO2 (Carbon Dioxide)</strong><br>\n- Central atom: Carbon (C).<br>\n- Carbon has 4 valence electrons. It forms two double bonds (C=O) with two oxygen atoms.<br>\n- There are <strong>two regions of electron density</strong> (both double bonds count as one region each) and <strong>no lone pairs</strong> on the central carbon.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Determining the Geometry</strong><br>\nTo minimize repulsion between two electron density regions, they position themselves on opposite sides of the central atom. This creates a bond angle of <strong>180 degrees</strong>, which is a <strong>linear</strong> geometry.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Why the Others are Not Linear</strong><br>\n- <strong>H2O:</strong> 2 bonds, 2 lone pairs on oxygen → Bent shape.<br>\n- <strong>NH3:</strong> 3 bonds, 1 lone pair on nitrogen → Trigonal pyramidal.<br>\n- <strong>CH4:</strong> 4 bonds, 0 lone pairs → Tetrahedral.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "CO2 (Carbon dioxide)"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Theory of Chemical Bonding",
+    "Subheading": "Advanced models for understanding molecular structure"
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Theory of Chemical Bonding",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "In the context of Valence Bond Theory, what is the process of mixing atomic orbitals to form new, hybrid orbitals called?",
+      "type": "OBJ",
+      "options": [
+        "Ionization",
+        "Resonance",
+        "Hybridization",
+        "Delocalization"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Hybridization</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: The Problem Hybridization Solves</strong><br>\nSometimes, the ground state electron configuration of an atom doesn't explain the number or geometry of bonds it forms. For example, carbon has 2s²2p², but forms four equivalent bonds in methane (CH₄).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Process Explained</strong><br>\nHybridization is the concept where atomic orbitals (like 2s and three 2p orbitals) mix or \"blend\" together to form an equal number of new, identical hybrid orbitals (like four sp³ orbitals).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: The Result</strong><br>\nThese new hybrid orbitals have different shapes and energies than the original ones. They allow for stronger, more stable bonds and explain the specific geometry of the molecule (e.g., tetrahedral for sp³).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Distinguishing from Other Terms</strong><br>\n- <strong>Ionization</strong>: Losing an electron.<br>\n- <strong>Resonance</strong>: Delocalizing electrons across multiple structures.<br>\n- <strong>Delocalization</strong>: Electrons spread over several atoms.<br>\n- <strong>Hybridization</strong>: Mixing atomic orbitals.<br>\nThe correct term is therefore <strong>Hybridization</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hybridization"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Theory of Chemical Bonding",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Which type of bond results from the sideways overlap of two p-orbitals, leading to electron density above and below the internuclear axis?",
+      "type": "OBJ",
+      "options": [
+        "Sigma (σ) bond",
+        "Pi (π) bond",
+        "Delta (δ) bond",
+        "Hydrogen bond"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Pi (π) Bonds</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Visualizing Atomic Orbitals</strong><br>\nA p-orbital has a dumbbell shape with two lobes. For bonding to occur, these orbitals need to overlap.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Two Types of Overlap</strong><br>\n- <strong>Sigma (σ) Bond:</strong> Formed by end-to-end overlap (e.g., two s-orbitals, or one s and one p). The electron density is concentrated directly between the two nuclei (along the internuclear axis).<br>\n- <strong>Pi (π) Bond:</strong> Formed by <strong>sideways overlap</strong> of two p-orbitals. They meet above and below the internuclear axis.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Consequences of a π Bond</strong><br>\nBecause the overlap is sideways and not directly between the nuclei, π bonds are weaker than σ bonds. They also restrict rotation, which is why double bonds (one σ + one π) are rigid and create geometric isomers (cis/trans).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Conclusion</strong><br>\nThe description of \"sideways overlap\" and \"electron density above and below the axis\" is the exact definition of a <strong>Pi (π) bond</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Pi (π) bond"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Chemical Thermodynamics",
+    "Subheading": "The study of energy changes in chemical reactions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Chemical Thermodynamics",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "A reaction that releases heat to its surroundings is classified as what?",
+      "type": "OBJ",
+      "options": [
+        "Endothermic",
+        "Exothermic",
+        "Isothermic",
+        "Adiabatic"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Exothermic Reactions</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Breaking and Forming Bonds</strong><br>\nChemical reactions involve breaking bonds in reactants (which requires energy) and forming new bonds in products (which releases energy).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Comparing Energy</strong><br>\n- If the energy <strong>released</strong> from forming new bonds is <strong>greater than</strong> the energy <strong>absorbed</strong> to break old bonds, the excess energy is released as heat.<br>\n- If the energy absorbed to break bonds is greater than the energy released, heat is absorbed from the surroundings.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Terminology</strong><br>\n- <strong>Exothermic (\"exo\" = out):</strong> Heat flows <strong>out</strong> of the system to the surroundings. You can often feel this as warmth. The enthalpy change (ΔH) is negative.<br>\n- <strong>Endothermic (\"endo\" = in):</strong> Heat flows <strong>into</strong> the system from the surroundings. The surroundings feel cooler. ΔH is positive.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Applying to the Question</strong><br>\nA reaction that <strong>releases heat</strong> to its surroundings fits the definition of an <strong>exothermic</strong> reaction.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Exothermic"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Chemical Thermodynamics",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "According to the second law of thermodynamics, what must happen to the total entropy of the universe during a spontaneous process?",
+      "type": "OBJ",
+      "options": [
+        "It must decrease",
+        "It must remain constant",
+        "It must increase",
+        "It can either increase or decrease"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: The Second Law of Thermodynamics</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Defining Entropy</strong><br>\nEntropy (S) is a measure of disorder or randomness in a system. A messy room has higher entropy than a tidy one. Gas particles have higher entropy than solid particles.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Law's Statement</strong><br>\nThe second law of thermodynamics states that for any spontaneous process (a process that happens on its own, without external input), the total entropy of the universe <strong>must increase</strong>.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Universe = System + Surroundings</strong><br>\nThe total entropy change (ΔS_universe) is the sum of the entropy change of the system (the reaction) and the entropy change of the surroundings.<br>\nFor a process to be spontaneous: \\( \\Delta S_{universe} = \\Delta S_{system} + \\Delta S_{surroundings} > 0 \\).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Conclusion</strong><br>\nThe universe tends toward greater disorder. Therefore, the total entropy of the universe <strong>must increase</strong> during a spontaneous process.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "It must increase"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Gaseous State",
+    "Subheading": "Behavior and properties of gases"
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Gaseous State",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "Which law describes the directly proportional relationship between the volume and temperature of a gas at constant pressure?",
+      "type": "OBJ",
+      "options": [
+        "Boyle's Law",
+        "Charles's Law",
+        "Avogadro's Law",
+        "Gay-Lussac's Law"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Charles's Law</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Understanding Direct Proportionality</strong><br>\nIf two quantities are directly proportional, when one increases, the other increases by the same factor. When one decreases, the other decreases.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Visualizing a Gas</strong><br>\nImagine a gas in a container with a movable piston (to keep pressure constant).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Applying Heat (Increasing Temperature)</strong><br>\nWhen you heat the gas, the gas particles gain kinetic energy. They move faster and collide with the walls of the container and the piston with greater force. To keep the pressure constant, the piston must move outward, increasing the volume of the container.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: The Mathematical Relationship</strong><br>\nThis relationship is described by Charles's Law: \\( V \\propto T \\) (at constant pressure and amount of gas). It can be written as \\( \\frac{V_1}{T_1} = \\frac{V_2}{T_2} \\), where T is in Kelvin.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 5: Distinguishing from Other Laws</strong><br>\n- <strong>Boyle's Law:</strong> Pressure and Volume (inverse relationship, constant T).<br>\n- <strong>Avogadro's Law:</strong> Volume and Moles (direct relationship, constant P and T).<br>\n- <strong>Gay-Lussac's Law:</strong> Pressure and Temperature (direct relationship, constant V).<br>\nThe correct law for volume and temperature is <strong>Charles's Law</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Charles's Law"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Gaseous State",
+      "Chemistry"
+    ],
+    "Question": {
+      "content": "What is the value of the ideal gas constant (R) when pressure is measured in atmospheres and volume in liters?",
+      "type": "OBJ",
+      "options": [
+        "8.314 J/mol·K",
+        "0.0821 L·atm/mol·K",
+        "62.36 L·mmHg/mol·K",
+        "1.987 cal/mol·K"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: The Ideal Gas Constant (R)</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: The Ideal Gas Law</strong><br>\nThe Ideal Gas Law combines all the simple gas laws into one equation: \\( PV = nRT \\).<br>\n- P = Pressure<br>\n- V = Volume<br>\n- n = number of moles<br>\n- R = the ideal gas constant<br>\n- T = Temperature (in Kelvin)\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Why R has different values</strong><br>\nR is a proportionality constant that allows us to calculate one property from the others. Its numerical value depends entirely on the units used for pressure and volume.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: The Common Value</strong><br>\nIf we measure pressure in atmospheres (atm) and volume in liters (L), the value of R is <strong>0.0821 L·atm/mol·K</strong>. This is the most frequently used value in general chemistry.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Other Values</strong><br>\n- <strong>8.314 J/mol·K:</strong> Used when energy in Joules is involved (SI units).<br>\n- <strong>62.36 L·mmHg/mol·K:</strong> Used when pressure is in millimeters of mercury.<br>\n- <strong>1.987 cal/mol·K:</strong> Used when energy is in calories.<br>\nThe question specifically asks for the value when P is in atm and V is in L, so the correct answer is <strong>0.0821 L·atm/mol·K</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.0821 L·atm/mol·K"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Primates and Mammals",
+    "Subheading": "Evolutionary relationships and characteristics"
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Mammals",
+      "Primates",
+      "Evolution",
+      "Biology"
+    ],
+    "Question": {
+      "content": "Primates first evolved from a small group of arboreal mammals called what?",
+      "type": "OBJ",
+      "options": [
+        "Homo sapiens",
+        "Archonta",
+        "Archontasis",
+        "Homo erectus"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Primate Origins</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: Understanding the Terminology</strong><br>\n- <strong>Homo sapiens:</strong> This is the scientific name for modern humans. Humans are a type of primate, but they came much later, not as the ancestor.<br>\n- <strong>Homo erectus:</strong> This is an extinct species of human ancestor, also appearing millions of years after the first primates.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: The Evolutionary Group</strong><br>\nThe word \"Archonta\" refers to a proposed superorder of placental mammals. This group includes not just primates but also tree shrews (Scandentia), colugos (Dermoptera), and sometimes bats (Chiroptera).\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: The Significance</strong><br>\nThe common ancestor of all these animals was a small, insectivorous, arboreal (tree-dwelling) mammal. This ancestor gave rise to the primate lineage. Therefore, primates are thought to have evolved from a group within the <strong>Archonta</strong>.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 4: Conclusion</strong><br>\nThe correct term for this ancestral group of arboreal mammals is <strong>Archonta</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Archonta"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Mammals",
+      "Primates",
+      "Evolution",
+      "Biology",
+      "Skeleton"
+    ],
+    "Question": {
+      "content": "Which skeletal feature is a key characteristic of primates, enabling them to grasp branches and manipulate objects?",
+      "type": "OBJ",
+      "options": [
+        "A fused clavicle",
+        "An opposable thumb",
+        "A long tail",
+        "A keeled sternum"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step-by-Step Explanation: Primate Adaptations</h4>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 1: The Primate Lifestyle</strong><br>\nMost primates are arboreal (tree-dwelling). Living in trees requires specific physical adaptations for climbing, grasping branches, and, in some cases, manipulating food.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 2: Analyzing the Options</strong><br>\n- <strong>A fused clavicle:</strong> A clavicle (collarbone) provides shoulder mobility. Primates do have a clavicle, but it's not typically described as \"fused.\" This isn't the primary grasping feature.<br>\n- <strong>An opposable thumb:</strong> An opposable thumb means the thumb can be rotated so that it can touch the tips of the other fingers. This allows for a <strong>precision grip</strong> (holding a small object) and a <strong>power grip</strong> (grasping a branch). This is a defining feature of primates.<br>\n- <strong>A long tail:</strong> Some primates have long tails for balance (e.g., spider monkeys), but it's not universal and is not the primary feature for grasping or manipulation.<br>\n- <strong>A keeled sternum:</strong> A keeled sternum is a breastbone with a ridge, typically found in flying birds for muscle attachment. It is not a primate feature.\n</div>\n\n<div style='margin-bottom: 12px;'>\n<strong style='color: var(--strongColor);'>Step 3: Conclusion</strong><br>\nThe skeletal feature that directly enables the grasping and manipulation described is the <strong>opposable thumb</strong>.\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "An opposable thumb"
+    }
+  }
+]
